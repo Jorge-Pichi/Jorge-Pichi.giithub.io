@@ -1,0 +1,17 @@
+[
+    {
+        "titulo": "Nuevos ordenadores y piezas de ordenadores disponibles",
+        "fecha": "2026-10-01",
+        "descripcion": "Ya tenemos nuevos modelos de ordenadores y piezas de ordenadores disponibles en nuestra tienda."
+    },
+    {
+        "titulo": "Servicio de reparación",
+        "fecha": "2026-10-05",
+        "descripcion": "Ofrecemos reparación de ordenadores portátiles y de sobremesa, tambien ofrecemos reparacion de las piezas que van dentro del ordenador."
+    },
+    {
+        "titulo": "Mantenimiento informático",
+        "fecha": "2026-10-08",
+        "descripcion": "Realizamos limpieza y mantenimiento para mejorar el rendimiento de los equipos."
+    }
+]
