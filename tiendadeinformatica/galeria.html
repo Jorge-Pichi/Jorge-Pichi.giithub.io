@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería - Tienda de Informática</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/galeria.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>TIENDA DE INFORMÁTICA</h1>
+
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="galeria.html" class="activo">GALERIA</a>
+            <a href="presupuesto.html">Presupuesto</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="seccion-galeria">
+            <h2>Nuestros productos y servicios</h2>
+            <p>
+                Descubre nuestros equipos informáticos, componentes y servicios de reparación.
+            </p>
+
+            <div id="galeria" class="galeria"></div>
+        </section>
+    </main>
+
+    <!-- Ventana para ampliar imágenes -->
+    <div id="visor" class="visor" role="dialog"
+         aria-modal="true" aria-label="Visor de imágenes"
+         hidden>
+
+        <button id="cerrar" class="cerrar"
+                aria-label="Cerrar imagen">&times;</button>
+
+        <button id="anterior" class="anterior"
+                aria-label="Imagen anterior">&#10094;</button>
+
+        <img id="imagenGrande" src="" alt="">
+
+        <button id="siguiente" class="siguiente"
+                aria-label="Imagen siguiente">&#10095;</button>
+
+        <p id="descripcion"></p>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Tienda de Informática</p>
+        <p>Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
